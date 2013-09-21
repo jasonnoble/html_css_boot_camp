@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample HTML Document</title>
+    <meta name="description" content="Sample HTML" />
+    <meta name="keywords" content="HTML, DaVinci" />
+    <meta name="author" content="Jason Noble" />
+    <link rel="stylesheet" type="text/css" href="http://jasonnoble.org/html_boot_camp/sample.css">
+    <script type="text/javascript" src='http://platform.twitter.com/widgets.js?ver=3.4.1'></script>
+  </head>
+
+  <body>
+    <div id="header" class="box">
+      <h1>Basic</h1>
+      <p class="intro">
+        Paragraph 1 and a <a href="http://www.asapisystems.com">link</a>.
+        And there <img src="http://www.asapisystems.com/wp-content/uploads/2011/12/home.png"> is an embedded image.
+      </p>
+
+      <p class="center">
+        Paragraph 2 with <em>emphasized text</em> and <strong>strong text</strong>.
+        <br />
+        Here is text after a line break.
+      </p>
+
+      <p class="detail">
+        And here is yet another paragraph with more text and another <img src="http://www.asapisystems.com/wp-content/themes/asap/images/logo.png" alt="ASAP Company Logo"/> image, this time floated left.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is a sentence after some non-breaking space entities.
+      </p>
+    </div>
+
+    <div id="content-area" class="box">
+      <div class="content">
+        <h1>Code Sample</h1>
+        <pre>
+          <code>
+array = [1, 2, 3]
+
+array.each do |elem|
+  p elem
+end
+          </code>
+        </pre>
+      </div>
+
+      <div class="content">
+        <h1>Lists</h1>
+        <h2>Unordered List</h2>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ul>
+        <h2>Ordered List</h2>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ol>
+        <h2>Definition List</h2>
+        <dl>
+          <dt>Term 1</dt>
+          <dd>Definition 1</dt>
+          <dt>Term 2</dt>
+          <dd>Definition 2</dt>
+        </dl>
+      </div>
+
+      <div class="content">
+        <h1>Form</h1>
+        <form method="GET">
+          <div class="form-field">
+            <label name="text_field">Text Field</label>
+            <input name="text_field" type="text" size="26" maxlength="20" value="Hello" />
+          </div>
+
+          <div class="form-field">
+            <label name="boolean_flag">Boolean Flag:</label>
+            <input name="boolean_flag" type="checkbox" value="1">
+          </div>
+
+          <fieldset name="radio-group">
+            <legend>Radio Group</legend>
+            <div class="form-field">
+              <label name="radio_group">Radio Option 1:</label>
+              <input name="radio_group" type="radio" value="A" />
+              <label name="radio_group">Radio Option 2:</label>
+              <input name="radio_group" type="radio" value="B" />
+              <label name="radio_group">Radio Option 3:</label>
+              <input name="radio_group" type="radio" value="C" />
+            </div>
+          </fieldset>
+
+          <div class="form-field">
+            <label name="selection_field">Selection Field:</label>
+            <select name="selection_field">
+              <option value="">PLEASE SELECT AN OPTION</option>
+              <option value="a">Select Option a</option>
+              <option value="b" selected="selected">Select Option b</option>
+              <option value="c">Select Option c</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label name="text_area_field">Text Area Field:</label>
+            <textarea name="text_area_field" rows="5" cols="20">Some default text</textarea>
+          </div>
+
+          <div class="form-field">
+            <input name="submit" type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="footer" class="box">
+      <h1>Table</h1>
+      <table>
+        <colgroup>
+          <col class="column" id="column_a" />
+          <col class="column" id="column_b" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Column Heading A</th>
+            <th>Column Heading B</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Cell A1</td>
+            <td>Cell A2</td>
+          </tr>
+          <tr>
+            <td>Cell B1</td>
+            <td>Cell B2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+/* A minimal reset.*/
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	background-color: white;
+	font-family: sans-serif;
+	/*font-size: 100%;*/
+}
+
+h1
+{
+	color: indigo;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+ul, ol, dl
+{
+	margin: 10px 0 20px 0;
+}
+
+li
+{
+	margin: 0 40px;
+}
+
+ul
+{
+	list-style-type: disc;
+}
+
+ul li
+{
+	display: list-item;
+}
+
+ol
+{
+	list-style-type: decimal;
+}
+
+ol li
+{
+	display: list-item;
+}
+
+dd
+{
+	margin: 0 40px;
+	font-size: small;
+}
+
+p
+{
+	font-family: Optima;
+	font-size: 20px;
+	margin-bottom: 12pt;
+}
+
+p.intro img
+{
+	float: right;
+}
+
+.intro
+{
+	text-indent: 10px;
+}
+
+p.center
+{
+	text-align: center;
+}
+
+.detail
+{
+	overflow: hidden;
+}
+
+p.detail img
+{
+	float: left;
+	background-color: black;
+	box-shadow: 5px 5px 5px #888888;
+	margin: 0px 10px 5px 0px;
+}
+
+div.box
+{
+	border: 1px solid #DDDDDD;
+	background: #DDDDDD;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 5px 5px 5px #CCCCCC;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+}
+
+div.content
+{
+	/*clear: left;*/
+	float: left;
+	width: 30%;
+	/*margin: 0 10px;*/
+	padding: 5px;
+	margin: auto;
+}
+
+div.form-field
+{
+	clear: both;
+	margin: 5px 0;
+	overflow: hidden;
+}
+
+fieldset
+{
+	clear: both;
+	padding: 5px;
+	border-color: #EEEEEE;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 0 5px;
+}
+
+fieldset div.form-field
+{
+	margin: 0;
+	padding: 1px;
+}
+
+label
+{
+	float: left;
+}
+
+input, select, textarea
+{
+	float: right;
+}
+
+div#footer
+{
+	clear: both;
+}
+
+table, th, td
+{
+	border: 1px solid #888888;
+	border-collapse: collapse;
+	padding: 2px;
+}
